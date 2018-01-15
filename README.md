@@ -8,7 +8,7 @@ This is Spring Boot MyBatis development templates.
   - [procedure](https://github.com/loveisontheway/springboot-mybatis#procedure)
     1. [ProjectConstant](https://github.com/loveisontheway/springboot-mybatis#ProjectConstant)
     1. [CodeGenerator](https://github.com/loveisontheway/springboot-mybatis#CodeGenerator)
-+ [Share](https://github.com/loveisontheway/springboot-mybatis#Share)
++ [share](https://github.com/loveisontheway/springboot-mybatis#share)
 
 # springboot mybatis
 MyBatis是持久层框架，基于Spring Boot的Mybatis，嵌入MyBatis Generator插件，该插件结合Freemarker+Swagger,实现了自动创建实体类、接口、接口实现类、数据传输类、SQL映射文件、Controller类、RESTful接口API文档。
@@ -71,6 +71,6 @@ public static void main(String[] args) {
 }
 ```
 
-# Share
+# share
 * WEB: https://www.helloweba.net/nav.html
 * JAVA: http://ifeve.com/
