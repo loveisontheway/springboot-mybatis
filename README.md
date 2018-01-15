@@ -4,7 +4,7 @@ Spring Boot MyBatis ![alt tag](https://api.travis-ci.org/phishman3579/java-algor
 This is Spring Boot MyBatis development templates.
 
 # Table of Contents
-+ [springboot mybatis](#https://github.com/loveisontheway/springboot-mybatis#springboot-mybatis)
++ [springboot mybatis](https://github.com/loveisontheway/springboot-mybatis#springboot-mybatis)
   - [procedure](https://github.com/loveisontheway/springboot-mybatis#procedure)
     1. [ProjectConstant](https://github.com/loveisontheway/springboot-mybatis#ProjectConstant)
     1. [CodeGenerator](https://github.com/loveisontheway/springboot-mybatis#CodeGenerator)
