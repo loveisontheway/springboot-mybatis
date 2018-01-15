@@ -5,17 +5,17 @@ This is Spring Boot MyBatis development templates.
 
 # Table of Contents
 + [springboot-mybatis](#springboot-mybatis)
-  - [procedure](#procedure)
-    1. [ProjectConstant](#ProjectConstant)
-    1. [CodeGenerator](#CodeGenerator)
+  - [procedure](##procedure)
+    1. [ProjectConstant](###ProjectConstant)
+    1. [CodeGenerator](###CodeGenerator)
 + [Share](#Share)
 
-## springboot-mybatis
+# springboot-mybatis
 MyBatis是持久层框架，基于Spring Boot的Mybatis，嵌入MyBatis Generator插件，该插件结合Freemarker+Swagger,实现了自动创建实体类、接口、接口实现类、数据传输类、SQL映射文件、Controller类、RESTful接口API文档。
 
-### procedure
+## procedure
 
-#### ProjectConstant
+### ProjectConstant
 `ProjectConstant`类是配置自动生成的包路径位置。
 
 | name | description |
@@ -48,7 +48,7 @@ public final class ProjectConstant {
 }
 ```
 
-#### CodeGenerator
+### CodeGenerator
 `CodeGenerator`类是MyBatis Generator自动生成代码器，直接运行Main方法即可。
 ```java
 public static void main(String[] args) {
@@ -71,6 +71,6 @@ public static void main(String[] args) {
 }
 ```
 
-## Share
+# Share
 * WEB: https://www.helloweba.net/nav.html
 * JAVA: http://ifeve.com/
