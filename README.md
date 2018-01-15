@@ -4,13 +4,13 @@ Spring Boot MyBatis ![alt tag](https://api.travis-ci.org/phishman3579/java-algor
 This is Spring Boot MyBatis development templates.
 
 # Table of Contents
-+ [springboot-mybatis](#springboot-mybatis)
-  - [procedure](##procedure)
-    1. [ProjectConstant](###ProjectConstant)
-    1. [CodeGenerator](###CodeGenerator)
-+ [Share](#Share)
++ [springboot mybatis](#https://github.com/loveisontheway/springboot-mybatis#springboot-mybatis)
+  - [procedure](https://github.com/loveisontheway/springboot-mybatis#procedure)
+    1. [ProjectConstant](https://github.com/loveisontheway/springboot-mybatis#ProjectConstant)
+    1. [CodeGenerator](https://github.com/loveisontheway/springboot-mybatis#CodeGenerator)
++ [Share](https://github.com/loveisontheway/springboot-mybatis#Share)
 
-# springboot-mybatis
+# springboot mybatis
 MyBatis是持久层框架，基于Spring Boot的Mybatis，嵌入MyBatis Generator插件，该插件结合Freemarker+Swagger,实现了自动创建实体类、接口、接口实现类、数据传输类、SQL映射文件、Controller类、RESTful接口API文档。
 
 ## procedure
