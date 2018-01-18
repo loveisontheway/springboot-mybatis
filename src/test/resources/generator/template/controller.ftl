@@ -22,7 +22,7 @@ import java.lang.${pkDataType};
 /**
  * ${description}-Controller类
  * @author ${author} on ${date}
- * @version 3.0.0
+ * @version 1.0.0
  */
 @Api(description = "${description}")
 @RestController

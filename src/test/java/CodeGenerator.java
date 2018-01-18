@@ -15,7 +15,7 @@ import java.util.*;
 /**
  * 代码生成器，根据数据表名称生成对应的Domain、Mapper、Service、Controller、DTO简化开发。
  * @author jiangjialiang on 2017/12/25
- * @version 3.0.0
+ * @version 1.0.0
  */
 public class CodeGenerator {
     /** JDBC配置，请修改为你项目的实际配置 */

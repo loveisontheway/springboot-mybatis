@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 统一API响应结果封装
  * @author jiangjialiang on 2017/12/25
- * @version 3.0.0
+ * @version 1.0.0
  */
 public class Result {
     private int code;
