@@ -37,7 +37,7 @@ import java.util.List;
 /**
  * Spring MVC 配置
  * @author jiangjialiang on 2017/12/25
- * @version 1.0.0
+ * @version 1.1.0
  */
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {

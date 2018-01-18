@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Service 层 基础接口，其他Service 接口 请继承该接口
  * @author jiangjialiang on 2017/12/25
- * @version 1.0.0
+ * @version 1.1.0
  */
 public interface Service<T, DTO extends T, PK> {
     /**

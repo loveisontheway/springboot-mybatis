@@ -3,7 +3,7 @@ package com.liotw.springboot.mybatis.core;
 /**
  * 项目常量
  * @author jiangjialiang on 2017/12/25
- * @version 1.0.0
+ * @version 1.1.0
  */
 public final class ProjectConstant {
     /** 项目基础包名称，根据项目修改 */

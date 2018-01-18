@@ -7,7 +7,7 @@ import java.lang.${pkDataType};
 /**
  * ${description}-Service接口类
  * @author ${author} on ${date}
- * @version 1.0.0
+ * @version 1.1.0
  */
 public interface ${domainNameUpperCamel}Service extends Service<${domainNameUpperCamel}, ${domainNameUpperCamel}DTO, ${pkDataType}> {
 

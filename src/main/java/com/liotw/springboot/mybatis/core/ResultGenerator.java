@@ -3,7 +3,7 @@ package com.liotw.springboot.mybatis.core;
 /**
  * 响应结果生成工具
  * @author jiangjialiang on 2017/12/25
- * @version 1.0.0
+ * @version 1.1.0
  */
 public class ResultGenerator {
     private static final String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";

@@ -3,7 +3,7 @@ package com.liotw.springboot.mybatis.core;
 /**
  * 响应码枚举，参考HTTP状态码的语义
  * @author jiangjialiang on 2017/12/25
- * @version 1.0.0
+ * @version 1.1.0
  */
 public enum ResultCode {
     SUCCESS(200),               // 成功
