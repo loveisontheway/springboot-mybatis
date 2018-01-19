@@ -11,7 +11,7 @@ This is Spring Boot MyBatis development templates.
 + [share](https://github.com/loveisontheway/springboot-mybatis#share)
 
 # springboot mybatis
-MyBatis是持久层框架，基于Spring Boot的Mybatis，嵌入MyBatis Generator插件，该插件结合Freemarker+Swagger,实现了自动创建实体类、接口、接口实现类、数据传输类、SQL映射文件、Controller类、RESTful接口API文档。
+`MyBatis`是持久层框架，基于Spring Boot的Mybatis，嵌入MyBatis Generator插件，该插件结合Freemarker+Swagger,实现了自动创建实体类、接口、接口实现类、数据传输类、SQL映射文件、Controller类、RESTful接口API文档。也引入了Apache POI Excel导入导出功能。
 
 ## procedure
 
