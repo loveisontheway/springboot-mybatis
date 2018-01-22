@@ -67,6 +67,8 @@ public class ExcelImportUtil {
                     Object rowObj = sheetClass.newInstance();
                     for (int i = 0; i < fields.size(); i++) {
                         Field field = fields.get(i);
+                        /** Cannot get a STRING value from a NUMERIC cell: 不能从数字单元获取字符串值 (解决) */
+                        rowX.getCell(i).setCellType(CellType.STRING);
                         String fieldValueStr = rowX.getCell(i).getStringCellValue();
 
                         Object fieldValue = FieldReflectionUtil.parseValue(field, fieldValueStr);
