@@ -56,6 +56,18 @@ public class MybatisConfig {
         properties.setProperty("`", ProjectConstant.MAPPER_INTERFACE_REFERENCE);
         properties.setProperty("notEmpty", "false");    // insert、update是否判断字符串类型!='' 即 test="str != null"表达式内是否追加 and str != ''
         properties.setProperty("IDENTITY", "MYSQL");
+        /**
+         * （Service.findByCondition --> ConditionMapper<T>）
+         * 解决MyBatis通用插件Mapper调用条件查询报如下异常：
+         * ----------------------------------------------------------------------------------------------------------
+         * org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.builder.BuilderException:
+         * Error invoking SqlProvider method (tk.mybatis.mapper.provider.ConditionProvider.dynamicSQL).
+         * Cause: java.lang.InstantiationException: tk.mybatis.mapper.provider.ConditionProvider
+         * ----------------------------------------------------------------------------------------------------------
+         * mappers = 属性名称（固定写法）
+         * com.liotw.springboot.mybatis.core.Mapper = 通用Mapper包路径位置
+         */
+        properties.setProperty("mappers", "com.liotw.springboot.mybatis.core.Mapper");
         mapperScannerConfigurer.setProperties(properties);
 
         return mapperScannerConfigurer;
