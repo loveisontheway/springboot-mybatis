@@ -36,8 +36,8 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 市（地区、自治州、盟）代码
      */
-    @Column(name = "city_id")
-    private Long cityId;
+    @Column(name = "city_code")
+    private Long cityCode;
 
     /**
      * 市（地区、自治州、盟）名称
@@ -48,8 +48,8 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 县（市辖区、县级市、旗）代码
      */
-    @Column(name = "county_id")
-    private Long countyId;
+    @Column(name = "county_code")
+    private Long countyCode;
 
     /**
      * 县（市辖区、县级市、旗）名称
@@ -129,8 +129,8 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 省（自治区、直辖市、特别行政区）代码
      */
-    @Column(name = "province_id")
-    private Long provinceId;
+    @Column(name = "province_code")
+    private Long provinceCode;
 
     /**
      * 省（自治区、直辖市、特别行政区）名称
@@ -163,8 +163,8 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 乡、镇（街道办事处）代码
      */
-    @Column(name = "town_id")
-    private Long townId;
+    @Column(name = "town_code")
+    private Long townCode;
 
     /**
      * 乡、镇（街道办事处）名称
@@ -175,8 +175,8 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 村（居民委员会、村民委员会）代码
      */
-    @Column(name = "village_id")
-    private Long villageId;
+    @Column(name = "village_code")
+    private Long villageCode;
 
     /**
      * 村（居民委员会、村民委员会）名称
@@ -275,19 +275,19 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 获取市（地区、自治州、盟）代码
      *
-     * @return city_id - 市（地区、自治州、盟）代码
+     * @return city_code - 市（地区、自治州、盟）代码
      */
-    public Long getCityId() {
-        return cityId;
+    public Long getCityCode() {
+        return cityCode;
     }
 
     /**
      * 设置市（地区、自治州、盟）代码
      *
-     * @param cityId 市（地区、自治州、盟）代码
+     * @param cityCode 市（地区、自治州、盟）代码
      */
-    public void setCityId(Long cityId) {
-        this.cityId = cityId;
+    public void setCityCode(Long cityCode) {
+        this.cityCode = cityCode;
     }
 
     /**
@@ -311,19 +311,19 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 获取县（市辖区、县级市、旗）代码
      *
-     * @return county_id - 县（市辖区、县级市、旗）代码
+     * @return county_code - 县（市辖区、县级市、旗）代码
      */
-    public Long getCountyId() {
-        return countyId;
+    public Long getCountyCode() {
+        return countyCode;
     }
 
     /**
      * 设置县（市辖区、县级市、旗）代码
      *
-     * @param countyId 县（市辖区、县级市、旗）代码
+     * @param countyCode 县（市辖区、县级市、旗）代码
      */
-    public void setCountyId(Long countyId) {
-        this.countyId = countyId;
+    public void setCountyCode(Long countyCode) {
+        this.countyCode = countyCode;
     }
 
     /**
@@ -563,19 +563,19 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 获取省（自治区、直辖市、特别行政区）代码
      *
-     * @return province_id - 省（自治区、直辖市、特别行政区）代码
+     * @return province_code - 省（自治区、直辖市、特别行政区）代码
      */
-    public Long getProvinceId() {
-        return provinceId;
+    public Long getProvinceCode() {
+        return provinceCode;
     }
 
     /**
      * 设置省（自治区、直辖市、特别行政区）代码
      *
-     * @param provinceId 省（自治区、直辖市、特别行政区）代码
+     * @param provinceCode 省（自治区、直辖市、特别行政区）代码
      */
-    public void setProvinceId(Long provinceId) {
-        this.provinceId = provinceId;
+    public void setProvinceCode(Long provinceCode) {
+        this.provinceCode = provinceCode;
     }
 
     /**
@@ -671,19 +671,19 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 获取乡、镇（街道办事处）代码
      *
-     * @return town_id - 乡、镇（街道办事处）代码
+     * @return town_code - 乡、镇（街道办事处）代码
      */
-    public Long getTownId() {
-        return townId;
+    public Long getTownCode() {
+        return townCode;
     }
 
     /**
      * 设置乡、镇（街道办事处）代码
      *
-     * @param townId 乡、镇（街道办事处）代码
+     * @param townCode 乡、镇（街道办事处）代码
      */
-    public void setTownId(Long townId) {
-        this.townId = townId;
+    public void setTownCode(Long townCode) {
+        this.townCode = townCode;
     }
 
     /**
@@ -707,19 +707,19 @@ public class MdAdministrativeRegion implements Serializable {
     /**
      * 获取村（居民委员会、村民委员会）代码
      *
-     * @return village_id - 村（居民委员会、村民委员会）代码
+     * @return village_code - 村（居民委员会、村民委员会）代码
      */
-    public Long getVillageId() {
-        return villageId;
+    public Long getVillageCode() {
+        return villageCode;
     }
 
     /**
      * 设置村（居民委员会、村民委员会）代码
      *
-     * @param villageId 村（居民委员会、村民委员会）代码
+     * @param villageCode 村（居民委员会、村民委员会）代码
      */
-    public void setVillageId(Long villageId) {
-        this.villageId = villageId;
+    public void setVillageCode(Long villageCode) {
+        this.villageCode = villageCode;
     }
 
     /**
