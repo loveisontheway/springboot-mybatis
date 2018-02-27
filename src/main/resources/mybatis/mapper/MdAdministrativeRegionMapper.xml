@@ -10,9 +10,9 @@
     <result column="area_name" jdbcType="VARCHAR" property="areaName" />
     <result column="category" jdbcType="INTEGER" property="category" />
     <result column="change_reason" jdbcType="VARCHAR" property="changeReason" />
-    <result column="city_id" jdbcType="BIGINT" property="cityId" />
+    <result column="city_code" jdbcType="BIGINT" property="cityCode" />
     <result column="city_name" jdbcType="VARCHAR" property="cityName" />
-    <result column="county_id" jdbcType="BIGINT" property="countyId" />
+    <result column="county_code" jdbcType="BIGINT" property="countyCode" />
     <result column="county_name" jdbcType="VARCHAR" property="countyName" />
     <result column="create_id" jdbcType="VARCHAR" property="createId" />
     <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
@@ -26,15 +26,15 @@
     <result column="native_name" jdbcType="VARCHAR" property="nativeName" />
     <result column="other_code" jdbcType="VARCHAR" property="otherCode" />
     <result column="parent_code" jdbcType="BIGINT" property="parentCode" />
-    <result column="province_id" jdbcType="BIGINT" property="provinceId" />
+    <result column="province_code" jdbcType="BIGINT" property="provinceCode" />
     <result column="province_name" jdbcType="VARCHAR" property="provinceName" />
     <result column="remark" jdbcType="VARCHAR" property="remark" />
     <result column="row_version" jdbcType="VARCHAR" property="rowVersion" />
     <result column="sort_order" jdbcType="INTEGER" property="sortOrder" />
     <result column="state" jdbcType="INTEGER" property="state" />
-    <result column="town_id" jdbcType="BIGINT" property="townId" />
+    <result column="town_code" jdbcType="BIGINT" property="townCode" />
     <result column="town_name" jdbcType="VARCHAR" property="townName" />
-    <result column="village_id" jdbcType="BIGINT" property="villageId" />
+    <result column="village_code" jdbcType="BIGINT" property="villageCode" />
     <result column="village_name" jdbcType="VARCHAR" property="villageName" />
   </resultMap>
 </mapper>
